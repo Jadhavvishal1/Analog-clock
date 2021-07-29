@@ -1,0 +1,59 @@
+
+body{
+    background-color: black;
+}
+P{
+    height: 25%;
+    width: 100%;
+    color: red;
+    margin-left: auto;
+    background-color: wheat;
+    text-align: center;
+    padding: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#clockcontainer{
+    position: relative;
+    margin-top: 30px;
+    height: 40vw;
+    width: 40vw;
+  
+background: url(unnamed.gif) no-repeat;
+background-size: 100%;
+margin: auto;
+margin-top: 50px;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 14px;
+    transform-origin: bottom;
+}
+#hour{
+height: 25%;
+width: 2%;
+top: 25.9%;
+left:49%;
+
+
+
+}
+/* }  #Height should be give more */
+ #minute{
+    height: 33%;
+    width: 2%;
+    top: 17.9%;
+    left:48.9%;
+  
+
+
+}
+#second{
+    
+    height: 35%;
+    width: 2%;
+    top: 15%;
+    left:49%;
+ 
+} 
